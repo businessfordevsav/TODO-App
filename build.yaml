@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      realm_generator:
+        options:
+          sources:
+            - lib/data/models/**
+        generate_for:
+          - lib/data/models/**
